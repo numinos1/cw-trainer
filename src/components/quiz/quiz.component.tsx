@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from 'React';
+import { useEffect, useReducer, useState } from 'react';
 import { Programs } from '../programs/programs.component';
 import { quizInit, quizReducer } from './quiz.reducer';
 import { useKeyboard } from '../../effects/use-keyboard';
@@ -43,7 +43,8 @@ export function Quiz() {
         case 'char:start':
         case 'char:end':
         case 'play:stop':
-        dispatch({ type, value })
+          dispatch({ type, value })
+      }
     });
   }, [dispatch]);
 

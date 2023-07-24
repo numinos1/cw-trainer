@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@blueprintjs/core': ^5.1.5
+  '@blueprintjs/icons': ^5.1.4
   '@types/react': ^18.2.15
   '@types/react-dom': ^18.2.7
   '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -20,6 +21,7 @@ specifiers:
 
 dependencies:
   '@blueprintjs/core': 5.1.5_clwdj742dood3wxkovrqay7cta
+  '@blueprintjs/icons': 5.1.4_clwdj742dood3wxkovrqay7cta
   morse-player: 1.0.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0

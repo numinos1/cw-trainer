@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'React';
+import { useEffect, useState, useMemo } from 'react';
 import player from '../../utils/player';
 import { Icon } from "@blueprintjs/core";
 import { toScore, icons, INITIAL_STATE } from './assessment.helpers';

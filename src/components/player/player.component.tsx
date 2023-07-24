@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useRef } from 'React';
+import { useEffect, useReducer, useRef } from 'react';
 import { Programs } from '../programs/programs.component';
 import { TProgram } from '../programs/programs.types';
 import { playerReducer, playerInit } from './player.reducer';
