@@ -10,3 +10,9 @@ export interface TProgramArgs {
   onSelect: TOnSelect;
   selected: string;
 }
+
+export interface TBook {
+  author: string;
+  book: string;
+  chapters: string[]
+}
