@@ -1,3 +1,5 @@
+import { IconName } from '@blueprintjs/icons';
+
 export const list = [{
   id: '15-wpm',
   wpm: 15,
@@ -30,12 +32,23 @@ export const INITIAL_STATE = {
   }))
 };
 
-export const icons: Record<string, string> = {
-  play: 'play',
-  playing: 'play',
-  record: 'record',
-  recording: 'record',
-  done: 'tick',
+// export const icons: Record<string, string> = {
+//   play: 'play',
+//   playing: 'play',
+//   record: 'record',
+//   recording: 'record',
+//   done: 'tick',
+// }
+
+export function toIcon(name: string): IconName {
+  switch (name) {
+    case 'play': return 'play';
+    case 'playing': return 'play';
+    case 'record': return 'record';
+    case 'recording': return 'record';
+    case 'done': return 'tick';
+    default: return 'tick';
+  }
 }
 
 /**

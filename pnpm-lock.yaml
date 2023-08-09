@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@blueprintjs/core': ^5.1.5
-  '@blueprintjs/icons': ^5.1.4
+  '@blueprintjs/core': ^5.2.0
+  '@blueprintjs/icons': ^5.1.5
   '@types/react': ^18.2.15
   '@types/react-dom': ^18.2.7
   '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -20,8 +20,8 @@ specifiers:
   vite: ^4.4.5
 
 dependencies:
-  '@blueprintjs/core': 5.1.5_clwdj742dood3wxkovrqay7cta
-  '@blueprintjs/icons': 5.1.4_clwdj742dood3wxkovrqay7cta
+  '@blueprintjs/core': 5.2.0_clwdj742dood3wxkovrqay7cta
+  '@blueprintjs/icons': 5.1.5_clwdj742dood3wxkovrqay7cta
   morse-player: 1.0.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -60,8 +60,8 @@ packages:
       tslib: 2.5.3
     dev: false
 
-  /@blueprintjs/core/5.1.5_clwdj742dood3wxkovrqay7cta:
-    resolution: {integrity: sha512-eyPTQZUVFE1ZO/4g+JWAybbdTvZu8isZh7MFxBegrMvXvhS8i8qNv0lnEwYcWTkNkBOiVRhnE1fn1LVNUoFL/g==}
+  /@blueprintjs/core/5.2.0_clwdj742dood3wxkovrqay7cta:
+    resolution: {integrity: sha512-GsYm/O12GxszkFBuwFUckc0O8RjN2LlZ+3Tp0rHvAtgLLH813nS+shCDGaVmd9ns4YKNfDMymEHgaoambaS75g==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.14.32 || 17 || 18
@@ -72,7 +72,7 @@ packages:
         optional: true
     dependencies:
       '@blueprintjs/colors': 5.0.1
-      '@blueprintjs/icons': 5.1.4_clwdj742dood3wxkovrqay7cta
+      '@blueprintjs/icons': 5.1.5_clwdj742dood3wxkovrqay7cta
       '@popperjs/core': 2.11.8
       '@types/react': 18.2.15
       classnames: 2.3.2
@@ -84,8 +84,8 @@ packages:
       tslib: 2.5.3
     dev: false
 
-  /@blueprintjs/icons/5.1.4_clwdj742dood3wxkovrqay7cta:
-    resolution: {integrity: sha512-2Vb8kneLZkKkH0VAkFbWHUixvI1UgFeDolev/TnyKHIaAPdGSmhoktmYsZNtcPiznZRrpb2PE03lU8fmBTi2KA==}
+  /@blueprintjs/icons/5.1.5_clwdj742dood3wxkovrqay7cta:
+    resolution: {integrity: sha512-Fvtmehxgff59OvPmtnws18wk1HJENQZj31HuxvAlZWIU/0XGEGqumUyCCCFQ8zHsM9G9D6Glg+BCjiX2qCcFIg==}
     peerDependencies:
       '@types/react': ^16.14.32 || 17 || 18
       react: ^16.8 || 17 || 18

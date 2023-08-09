@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import player from '../../utils/player';
 import { Icon } from "@blueprintjs/core";
-import { toScore, icons, INITIAL_STATE } from './assessment.helpers';
+import { toScore, toIcon, INITIAL_STATE } from './assessment.helpers';
 
 // https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#events
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
@@ -181,7 +181,7 @@ export function Assessment() {
             <button id={entry.id} onClick={onClick}>
                 <Icon 
                   icon={entry.id === state.selected 
-                    ? icons[entry.status]
+                    ? toIcon(entry.status)
                     : 'play'
                   } 
                   size={20} 
