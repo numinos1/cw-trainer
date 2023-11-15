@@ -103,7 +103,7 @@ export const programs: TProgram[] = [
   {
     id: '100-years',
     name: '100 Years',
-    play: (count) => {
+    play: (count: number) => {
       if (!count) {
         const years = [];
         for (let i = 1950; i < 2050; i++) {
@@ -111,6 +111,7 @@ export const programs: TProgram[] = [
         }
         return '[set wpm:30 freq:600] ' + years.join('  ');
       }
+      return '';
     }
   },
   // {

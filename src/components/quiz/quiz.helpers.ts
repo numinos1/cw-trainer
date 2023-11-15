@@ -8,8 +8,12 @@ import { render } from 'morse-player';
 export function renderProgram(
   program: TProgram
 ): TRenderProgram {
-  const out = render(program.play);
-  const options = out.find(val => typeof val === 'object');
+  const script = typeof program.play === 'string'
+    ? program.play
+    : program.play(0);
+  const out = render(script);
+  const opts = out.find(val => typeof val === 'object');
+  const options = opts as Record<string, any>;
   const words = out.filter(val => typeof val !== 'object')
     .join('').toUpperCase().trim().split(/\s+/);
 
