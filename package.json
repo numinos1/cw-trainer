@@ -12,7 +12,7 @@
   "dependencies": {
     "@blueprintjs/core": "^5.2.0",
     "@blueprintjs/icons": "^5.1.5",
-    "morse-player": "^1.0.4",
+    "morse-player": "^1.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
